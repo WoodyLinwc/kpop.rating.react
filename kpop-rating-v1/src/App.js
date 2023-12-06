@@ -12,7 +12,7 @@ function App() {
   const getKpops = async () => {
 
     try{
-      const response = await api.get("/api/v1/kpop")
+      const response = await api.get("/api/v1/kpops")
 
       console.log(response.data);
 
